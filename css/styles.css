@@ -1,8 +1,23 @@
+body{
+  background-color: #332c50;
+  color : #94e344
+}
 .columns{
+  margin: 5px;
   float: left;
-  padding: 10%;
-  width: 100px;
+  border-width: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.column1{
+  background-color: black;
+}
+.column2{
+  background-color: blue;
+}
+.column3{
+  background-color: red;
 }
 img{
-  max-width: 300px;
+  width: 300px;
 }
